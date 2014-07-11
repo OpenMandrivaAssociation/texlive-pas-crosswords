@@ -6,7 +6,7 @@
 # catalog-version 1.03
 Name:		texlive-pas-crosswords
 Version:	1.03
-Release:	3
+Release:	4
 Summary:	Creating crossword grids, using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pas-crosswords
