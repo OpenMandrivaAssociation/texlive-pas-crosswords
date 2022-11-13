@@ -1,18 +1,12 @@
-# revision 32313
-# category Package
-# catalog-ctan /macros/latex/contrib/pas-crosswords
-# catalog-date 2013-12-03 15:28:55 +0100
-# catalog-license lppl
-# catalog-version 1.03
 Name:		texlive-pas-crosswords
-Version:	1.03
-Release:	7
+Version:	32313
+Release:	1
 Summary:	Creating crossword grids, using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pas-crosswords
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ colours and decorations of the grids and the text in them. The
 package uses TikZ for its graphical output.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +34,7 @@ package uses TikZ for its graphical output.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
