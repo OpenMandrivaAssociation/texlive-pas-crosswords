@@ -1,6 +1,6 @@
 Name:		texlive-pas-crosswords
 Version:	32313
-Release:	1
+Release:	2
 Summary:	Creating crossword grids, using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pas-crosswords
