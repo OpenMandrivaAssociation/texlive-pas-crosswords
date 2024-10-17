@@ -3,7 +3,7 @@ Version:	32313
 Release:	2
 Summary:	Creating crossword grids, using TikZ
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pas-crosswords
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pas-crosswords
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pas-crosswords.doc.r%{version}.tar.xz
